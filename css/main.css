@@ -1,0 +1,93 @@
+/**********************
+       GENERAL
+**********************/
+
+body{
+  background: #f0f8ff;
+  font-family: "Varela Round", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*********************
+      COLORS
+*********************/
+.heading, #output, footer p{
+  color: #00bfff;
+}
+
+/*********************
+      DIV HEADER 
+*********************/
+
+.heading img{
+  margin: 3% 0 0 45%;
+}
+.heading h1{ 
+  font-family: 'Valera round', sans-serif;
+  font-size: 3em;
+  padding-top: 4px;
+  text-align: center; 
+}
+span{
+  font-size: 1.5em;
+}
+/*************************
+          FORM
+*************************/
+form{
+  text-align: center;
+  font-size: 2em;
+}
+p{
+  color: #fff;
+  font-size: 1.4em;
+  margin: 0 5px 15px 0;
+  line-height: 1.4;
+}
+input[type=search] {
+  padding: 0.75%;
+  font-size: 0.75em;
+}
+#search{
+  padding: 0.65%;
+  width: 30%;
+}
+#submit{
+  border: none;
+  padding: 0.75% 3%;
+  margin-top: 2%;
+  background: #00bfff;
+  color: white;
+  font-size: 0.75em;
+}
+#output{
+  margin-top: 3%;
+  text-align: center;
+}
+ 
+ /***********************
+    LIST IMAGES
+ ***********************/
+.image{
+  padding: 3px 5px 0;
+  width: 250px;
+  height: 200px;
+}
+ul li{
+  background: #00bfff;
+  border: 2px solid white;
+  margin: 60px;
+  display: inline-block;
+}
+.list{
+  font-size: 1em;
+  text-align: center;
+}
+/********************
+      FOOTER
+********************/
+footer p{
+  font-size: 0.85em;
+  text-align: center;
+  clear: both;
+  padding-top: 15%;
+}
